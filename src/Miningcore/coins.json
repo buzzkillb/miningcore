@@ -720,6 +720,25 @@
         "explorerTxLink": "http://explorer.geekcash.org/tx/{0}",
         "explorerAccountLink": "http://explorer.geekcash.org/address/{0}"
     },
+    "denarius": {
+        "name": "Denarius",
+        "symbol": "D",
+        "family": "bitcoin",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "tribus"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [ { "hash": "tribus" } ]
+        },
+        "hasMasterNodes": true,
+        "explorerBlockLink": "https://chainz.cryptoid.info/d/block.dws?$height$.htm",
+        "explorerTxLink": "https://chainz.cryptoid.info/d/tx.dws?{0}.htm}",
+        "explorerAccountLink": "https://chainz.cryptoid.info/d/address.dws?{0}.htm"
+    },
     "help-the-homeless": {
         "name": "Help The Homeless",
         "symbol": "HTH",
