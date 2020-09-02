@@ -734,6 +734,15 @@
             "hash": "reverse",
             "args": [ { "hash": "tribus" } ]
         },
+        "posBlockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "scrypt",
+                    "args": [ 1024, 1 ]
+                }
+            ]
+        },
         "hasMasterNodes": true,
         "explorerBlockLink": "https://chainz.cryptoid.info/d/block.dws?$height$.htm",
         "explorerTxLink": "https://chainz.cryptoid.info/d/tx.dws?{0}.htm}",
