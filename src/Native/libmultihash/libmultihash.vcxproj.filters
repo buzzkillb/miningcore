@@ -41,6 +41,9 @@
     <ClInclude Include="geek.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="tribus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="groestl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -329,6 +332,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="geek.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tribus.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="groestl.c">
