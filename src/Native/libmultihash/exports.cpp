@@ -37,6 +37,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include "nist5.h"
 #include "x15.h"
 #include "x17.h"
+#include "tribus.h"
 #include "fresh.h"
 #include "dcrypt.h"
 #include "jh.h"
@@ -156,6 +157,11 @@ extern "C" MODULE_API void fugue_export(const char* input, char* output, uint32_
 extern "C" MODULE_API void geek_export(const char* input, char* output, uint32_t input_len)
 {
 	geek_hash(input, output, input_len);
+}
+
+extern "C" MODULE_API void tribus_export(const char* input, char* output, uint32_t input_len)
+{
+	tribus_hash(input, output, input_len);
 }
 
 extern "C" MODULE_API void qubit_export(const char* input, char* output, uint32_t input_len)
