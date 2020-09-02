@@ -195,6 +195,7 @@
     <ClInclude Include="fresh.h" />
     <ClInclude Include="fugue.h" />
     <ClInclude Include="geek.h" />
+    <ClInclude Include="tribus.h" />
     <ClInclude Include="groestl.h" />
     <ClInclude Include="hashodo.h" />
     <ClInclude Include="hefty1.h" />
@@ -290,6 +291,7 @@
     <ClCompile Include="fresh.c" />
     <ClCompile Include="fugue.c" />
     <ClCompile Include="geek.c" />
+    <ClCompile Include="tribus.c" />
     <ClCompile Include="groestl.c" />
     <ClCompile Include="hefty1.c" />
     <ClCompile Include="jh.c" />
