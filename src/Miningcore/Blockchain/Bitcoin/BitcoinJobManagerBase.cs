@@ -484,6 +484,7 @@ namespace Miningcore.Blockchain.Bitcoin
             var submitBlockResponse = results[1];
             var blockchainInfoResponse = !hasLegacyDaemon ? results[2].Response.ToObject<BlockchainInfo>() : null;
             var daemonInfoResponse = hasLegacyDaemon ? results[2].Response.ToObject<DaemonInfo>() : null;
+            logger.ThrowLogPoolStartupException($"Full Results Array '{results}'");
             var difficultyResponse = results[1].Response.ToObject<JToken>();
 
             // chain detection
